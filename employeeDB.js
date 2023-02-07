@@ -29,7 +29,6 @@ app.use(function(req,res,next){
 });
 
 var port=process.env.PORT||2410;
-// var port=`https://service-emp.onrender.com`;
 app.listen(port,()=>console.log(`Node app Listening on port ${port}`));
 
 const {Client}=require('pg');
